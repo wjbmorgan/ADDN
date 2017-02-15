@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Basic Infomation"
+        android:key="basic_info">
+        <ListPreference
+            android:key="gender"
+            android:summary="%s"
+            android:title="Gender"
+            android:entries="@array/genders"
+            android:entryValues="@array/genders"/>
+        <ListPreference
+            android:key="insulin"
+            android:summary="%s"
+            android:title="Insulin Regimens"
+            android:entries="@array/insulin"
+            android:entryValues="@array/insulin"/>
+        <ListPreference
+            android:key="diabetes"
+            android:summary="%s"
+            android:title="Diabetes Type"
+            android:entries="@array/diabetes"
+            android:entryValues="@array/diabetes"/>
+        <SwitchPreference
+            android:key="hba1c_type"
+            android:title="HbA1c Type"
+            android:summaryOff="IFFC(mmol/mol)"
+            android:summaryOn="NGSP(%)"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="HbA1c Range"
+        android:key="hba1c_range">
+        <Preference
+            android:key="hba1c"
+            android:widgetLayout="@layout/range_seekbar3"
+            ></Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Age Range (Years)"
+        android:key="age_range">
+        <Preference
+            android:key="age"
+            android:widgetLayout="@layout/range_seekbar"
+            ></Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Diabetes Duration Range (Years)"
+        android:key="diabetes_duration">
+        <Preference
+            android:key="duration"
+            android:widgetLayout="@layout/range_seekbar2"
+            ></Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Advanced Setting"
+        android:key="advanced_setting">
+        <CheckBoxPreference
+            android:key="restriction"
+            android:summary="Restrict to patients consented for future research"
+            android:defaultValue="false" />
+        <ListPreference
+            android:key="report_type"
+            android:summary="%s"
+            android:title="Report Type"
+            android:entries="@array/report"
+            android:entryValues="@array/report"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title=" "
+        android:key="report">
+        <Preference
+            android:key="generate"
+            android:title="Get Your Report"
+            android:widgetLayout="@layout/pref_button"
+            ></Preference>
+    </PreferenceCategory>
+
+
+    ...
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_diabetes_type"
+            android:title="Diabetes Type" />
+        <item
+            android:id="@+id/nav_insulin_regimen"
+            android:title="Insulin Regimen" />
+        <item
+            android:id="@+id/nav_hba1c"
+            android:title="HbA1c" />
+        <item
+            android:id="@+id/nav_bmi_sds"
+            android:title="BMI SDS" />
+        <item
+            android:id="@+id/nav_severe_hypo_dka"
+            android:title="Severe Hypo and DKA" />
+        <item
+            android:id="@+id/nav_completeness_audit"
+            android:title="Completeness and Audit" />
+    </group>
+
+
+</menu>

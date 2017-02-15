@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ADDN</string>
+    <string name="edit_message">Enter your code</string>
+    <string name="button_start">Start</string>
+    <string name="title_activity_message">ADDN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Undetermined</item>
+    </string-array>
+
+    <string-array name="insulin">
+        <item>CSII</item>
+        <item>BD / Twice Daily</item>
+        <item>MDI</item>
+        <item>Other</item>
+        <item>Nill</item>
+    </string-array>
+
+    <string-array name="diabetes">
+        <item>Type 1</item>
+        <item>Type 2</item>
+        <item>Gestational</item>
+        <item>Monogenic</item>
+        <item>CFRD</item>
+        <item>Neonatal</item>
+        <item>Unspecified</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="report">
+        <item>Gender Distribution</item>
+        <item>HbA1c Distribution of Selected Gender</item>
+        <item>Age Distribution</item>
+        <item>HbA1c Distribution of Selected Age Range</item>
+        <item>Insulin Regimens Distribution</item>
+        <item>HbA1c Distribution of Selected Insulin Regimen</item>
+        <item>Diabetes Duration Distribution</item>
+        <item>HbA1c Distribution of Selected Diabetes Duration</item>
+        <item>Age Range Breakdown by Selected Gender</item>
+        <item>Insulin Regimen Breakdown by Age Range</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chart">Chart</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>
