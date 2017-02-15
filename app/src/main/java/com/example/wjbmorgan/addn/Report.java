@@ -313,6 +313,8 @@ public class Report extends AppCompatActivity {
         barChart.getXAxis().setValueFormatter(new LabelFormatter(labels));
         barChart.getXAxis().setDrawGridLines(false);
         barChart.getXAxis().setGranularity(1f);
+        barChart.getAxisLeft().setAxisMinimum(0);
+        barChart.getAxisRight().setAxisMinimum(0);
         barChart.invalidate();
     }
 
